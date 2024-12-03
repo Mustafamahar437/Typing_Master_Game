@@ -1,7 +1,7 @@
-Documentation for Typing Game Server and Client
-Overview:
+**Documentation for Typing Game Server and Client**
+**Overview:**
 The Typing Game is a two-player multiplayer typing game consisting of a Server and a Client. The game is designed to test players' typing speed and accuracy, calculating metrics like Words Per Minute (WPM) and typing accuracy. The game follows a client-server architecture where the server handles game logic, player communication, and result processing, while the client provides the user interface and interaction.
-System Architecture:
+**System Architecture:**
 Server:
 The server manages the game logic, keeps track of player statistics, and determines the winner based on typing speed and accuracy.
 It runs on a dedicated machine and listens for incoming connections from clients (players).
